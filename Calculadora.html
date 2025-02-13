@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Início</title>
+    <link rel="stylesheet" href="CSS/externo.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo(a) à Minha Página</h1>
+    </header>
+
+    <nav aria-label="Menu de navegação">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="Portfolio.html">Portfólio</a>
+        <a href="Contato.html">Contato</a>
+        <a href="final.html">Agradecimento</a>
+    </nav>
+
+    <main>
+        <div class="calculadora">
+            <form>
+                <h2>Calculadora Diva01</h2>
+                <label>Digite um número:</label><br>
+                <input type="number" id="num1" placeholder="Primeiro Número"><br>
+                <label>Digite outro número:</label><br>
+                <input type="number" id="num2" placeholder="Segundo Número"><br>
+                <br>
+                <label>Escolha uma operação:</label><br>
+                <button type="button" onclick="calcular('+')">+</button>
+                <button type="button" onclick="calcular('-')">-</button>
+                <button type="button" onclick="calcular('*')">×</button>
+                <button type="button" onclick="calcular('/')">÷</button>
+                <br>
+                <h3>Resultado: <span id="resultado">0</span></h3>
+            </form>
+        </div>
+        <script src="Java script/Calculadora.js"></script>
+
+        
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Luiz Henrique Rodrigues Azevedo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="CSS/externo.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo(a) à Minha Página</h1>
+    </header>
+
+    <nav aria-label="Menu de navegação">
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="Portfolio.html">Portfólio</a>
+        <a href="Contato.html">Contato</a>
+        <a href="final.html">Agradecimento</a>
+    </nav>
+
+    <div class="quiz01">
+        <h2>Calculadora de IMC</h2>
+        <input type="number" id="peso" placeholder="Peso (kg)" step="0.1">
+        <input type="number" id="altura" placeholder="Altura (m)" step="0.01">
+        <button onclick="calcularIMC()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+    
+    <script src="Java script/IMC.js"></script>
+    <footer>
+        <p>&copy; 2025 Luiz Henrique Rodrigues Azevedo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
